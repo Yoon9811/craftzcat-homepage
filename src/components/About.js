@@ -1,6 +1,7 @@
 import React from 'react'
 import { Section, SectionDivider, SectionText, SectionTitle } from '../styles/GlobalComponents';
 import styled from 'styled-components';
+import Image from 'next/image';
 
 const GridContainer = styled.section`
 display: grid;
@@ -21,7 +22,7 @@ function About() {
     return (
         <GridContainer>
         <Section id="about">
-             <img src={'/uni.jpg'}  height={350} alt={"Web development"}></img>
+             <Image src={'/uni.jpg'}  width ={350} height={350} alt={"Web development"}></Image>
         </Section>
         <Section >
             <SectionTitle>Chai Min Yoon</SectionTitle>
