@@ -17,7 +17,7 @@ const TopSection = (props) => (
             My Career Objective is to become a software developer whereby I can utilize my potential to the fullest extend and contribution towards organization growth. 
             </SectionText>
             <Button onClick={props.handleClick}>
-                <a style={{ display: 'flex', alignItems: 'center', color:"white"}}
+                <a style={{ display: "flex", alignItems: "center", color:"white"}}
                 href="mailto:minyoon5725@gmail.com">GET IN TOUCH</a>
             </Button>
         </LeftSection>
